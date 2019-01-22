@@ -1,6 +1,6 @@
 # Laravel Wrapper for Phery Ajax Library
 
-Wraps the [PheryJS](https://github.com/pheryjs/phery) to work with Laravel.
+Wraps [Phery](https://github.com/pheryjs/phery) to work with Laravel.
 Phery is a great ajax library for use with *just jQuery*.  
 
 Phery is pretty flexible which features a steep learning curve.  
