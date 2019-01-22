@@ -1,0 +1,37 @@
+{
+    "name": "chrisgo/laravel-phery",
+    "description": "Laravel Wrapper for Phery Ajax Library",
+    "keywords": [
+        "ajax",
+        "phery",
+        "jquery",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Go",
+            "email": "chris@velocimedia.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "phery/phery": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laracasts\\Flash\\FlashServiceProvider"
+            ],
+            "aliases": {
+                "Flash": "Laracasts\\Flash\\Flash"
+            }
+        }
+    }
+}
